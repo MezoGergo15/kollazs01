@@ -15,7 +15,7 @@
 <p>Ez itt a kollázsom.</p>
 
 
-<img src ="https://vbenedek2006.github.io/kollazs01/">
+<img src ="https://github.com/VBenedek2006/kollazs01/blob/main/kollazs.png">
 
 </body>
 </html>
