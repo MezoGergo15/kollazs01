@@ -12,11 +12,10 @@
 <h4>Varga Benedek</h4>
 <h5>Varga Benedek</h5>
 
-<p>This is a paragraph.</p>
+<p>Ez itt a kollázsom.</p>
 
 
-<img src ="https://vbenedek2006.github.io/kollazs01/>
-
+<img src ="https://vbenedek2006.github.io/kollazs01/">
 
 </body>
 </html>
