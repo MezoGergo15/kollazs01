@@ -5,72 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listák</title>
 </head>
-<body>
-    <style>
-        body {
-          margin: 0;
-          font-family: "Lato", sans-serif;
-        }
-        
-        .sidebar {
-          margin: 0;
-          padding: 0;
-          width: 200px;
-          background-color: #080cf0;
-          position: fixed;
-          height: 100%;
-          overflow: auto;
-        }
-        
-        .sidebar a {
-          display: block;
-          color: black;
-          padding: 16px;
-          text-decoration: none;
-        }
-         
-        .sidebar a.active {
-          background-color: #04AA6D;
-          color: white;
-        }
-        
-        .sidebar a:hover:not(.active) {
-          background-color: #555;
-          color: white;
-        }
-        
-        div.content {
-          margin-left: 200px;
-          padding: 1px 16px;
-          height: 1000px;
-        }
-        
-        @media screen and (max-width: 700px) {
-          .sidebar {
-            width: 100%;
-            height: auto;
-            position: relative;
-          }
-          .sidebar a {float: left;}
-          div.content {margin-left: 0;}
-        }
-        
-        @media screen and (max-width: 400px) {
-          .sidebar a {
-            text-align: center;
-            float: none;
-          }
-        }
-        </style>
-        </head>
-        <body>
-        
-        <div class="sidebar">
-          <a href="index.html">Főoldal</a>
-          <a href="keplink.html">1. feladat</a>
-          <a class="active" href="listak.html">2. feladat</a>
-          <a href="orarend.html">3. feladat </a>
-        </div>
+<body style="background-color: aqua;">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Lato", sans-serif;
+    }
+    
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+    
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+     
+    .sidebar a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+    
+    div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+    
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;}
+    }
+    
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="sidebar">
+      <a href="index.html" style="color: greenyellow;">Főoldal</a>
+      <a class="active" href="keplink.html" style="color: greenyellow;">1. feladat</a>
+      <a href="listak.html" style="color: greenyellow;">2. feladat</a>
+      <a href="orarend.html" style="color: greenyellow;">3. feladat </a>
+    </div>
         
         <div class="content">
 
@@ -80,8 +80,8 @@
 
     <p>A kedvenc tantárgyaim:</p>
     <ol>
-    <li style="color: green;"><strong>Angol</strong></li>
-    <li style="color: blanchedalmond;"><strong>Informatika és távközlés</strong></li>
+    <li style="color: green;">Angol</li>
+    <li style="color: blanchedalmond;">Informatika és távközlés</li>
     <li style="color: red;">Matek</li>
     </ol>
 
