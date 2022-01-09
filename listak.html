@@ -1,95 +1,110 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html>
+
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Listák</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: aqua;">
-  <style>
-    body {
-      margin: 0;
-      font-family: "Lato", sans-serif;
-    }
-    
-    .sidebar {
-      margin: 0;
-      padding: 0;
-      width: 200px;
-      background-color: #f1f1f1;
-      position: fixed;
-      height: 100%;
-      overflow: auto;
-    }
-    
-    .sidebar a {
-      display: block;
-      color: black;
-      padding: 16px;
-      text-decoration: none;
-    }
-     
-    .sidebar a.active {
-      background-color: #04AA6D;
-      color: white;
-    }
-    
-    .sidebar a:hover:not(.active) {
-      background-color: #555;
-      color: white;
-    }
-    
-    div.content {
-      margin-left: 200px;
-      padding: 1px 16px;
-      height: 1000px;
-    }
-    
-    @media screen and (max-width: 700px) {
+<style>
+    body{
+        margin: 0;
+        font-family: "Lato", sans-serif;
+      }
+      button{
+          border-radius: 25px;
+          background-color: rgb(8, 241, 241);
+      }
+      a{
+        color: aqua;
+        text-decoration: none;
+      }
       .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
       }
-      .sidebar a {float: left;}
-      div.content {margin-left: 0;}
-    }
-    
-    @media screen and (max-width: 400px) {
+      
       .sidebar a {
-        text-align: center;
-        float: none;
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
       }
-    }
+      
+      .sidebar a.active {
+        background-color: #f80909;
+        color: white;
+      }
+      
+      .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+      
+      div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+      }
+      
+      @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+      
+        .sidebar a {
+            float: left;
+        }
+      
+        div.content {
+            margin-left: 0;
+        }
+      }
+      
+      @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+      }
     </style>
-    </head>
-    <body>
-    
+
     <div class="sidebar">
-      <a href="index.html" style="color: greenyellow;">Főoldal</a>
-      <a class="active" href="keplink.html" style="color: greenyellow;">1. feladat</a>
-      <a href="listak.html" style="color: greenyellow;">2. feladat</a>
-      <a href="orarend.html" style="color: greenyellow;">3. feladat </a>
+        <a class="active" href="https://vbenedek2006.github.io/kollazs01/">MAGAMRÓL</a>
+        <a href="https://vbenedek2006.github.io/kollazs01/keplink.html">KÉPLINK</a>
+        <a href="https://vbenedek2006.github.io/kollazs01/listak.html">LISTÁK</a>
+        <a href="https://vbenedek2006.github.io/kollazs01/orarend.html">ÓRAREND</a>
     </div>
-        
-        <div class="content">
+
+    <div class="content">
 
     
-    <h1 style="color: red;">Varga Benedek</h1>
-    <h2>Listák</h2>
+        <h1 style="color: red;">Varga Benedek</h1>
+        <h2>Listák</h2>
+    
+        <p>A kedvenc tantárgyaim:</p>
+        <ol>
+        <li style="color: green;">Angol</li>
+        <li style="color: blue;">Informatika és távközlés</li>
+        <li style="color: red;">Matek</li>
+        </ol>
+    
+        <p> kedvenc szabadidős tevékenységeim:</p>
+        <ul>
+        <li style="color: cornflowerblue;">Számítógépezés</li>
+        <li style="color: red;">DVTK meccsekre járás</li>
+        </ul>
 
-    <p>A kedvenc tantárgyaim:</p>
-    <ol>
-    <li style="color: green;">Angol</li>
-    <li style="color: blue;">Informatika és távközlés</li>
-    <li style="color: red;">Matek</li>
-    </ol>
-
-    <p> kedvenc szabadidős tevékenységeim:</p>
-    <ul>
-    <li style="color: cornflowerblue;">Számítógépezés</li>
-    <li style="color: red;">DVTK meccsekre járás</li>
-    </ul>
+    </div>
 
 </body>
+
 </html>
