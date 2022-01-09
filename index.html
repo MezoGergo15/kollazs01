@@ -1,80 +1,107 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color: crimson;">
-  <style>
-    body {
-      margin: 0;
-      font-family: "Lato", sans-serif;
-    }
-    
-    .sidebar {
-      margin: 0;
-      padding: 0;
-      width: 200px;
-      background-color: #f1f1f1;
-      position: fixed;
-      height: 100%;
-      overflow: auto;
-    }
-    
-    .sidebar a {
-      display: block;
-      color: black;
-      padding: 16px;
-      text-decoration: none;
-    }
-     
-    .sidebar a.active {
-      background-color: #04AA6D;
-      color: white;
-    }
-    
-    .sidebar a:hover:not(.active) {
-      background-color: #555;
-      color: white;
-    }
-    
-    div.content {
-      margin-left: 200px;
-      padding: 1px 16px;
-      height: 1000px;
-    }
-    
-    @media screen and (max-width: 700px) {
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Varga Benedek OLDALA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        margin: 0;
+        font-family: "Lato", sans-serif;
+      }
+      button{
+          border-radius: 25px;
+          background-color: rgb(8, 241, 241);
+      }
+      a{
+        color: aqua;
+        text-decoration: none;
+      }
       .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
       }
-      .sidebar a {float: left;}
-      div.content {margin-left: 0;}
-    }
-    
-    @media screen and (max-width: 400px) {
+      
       .sidebar a {
-        text-align: center;
-        float: none;
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
       }
-    }
+      
+      .sidebar a.active {
+        background-color: #f80909;
+        color: white;
+      }
+      
+      .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+      
+      div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+      }
+      
+      @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+      
+        .sidebar a {
+            float: left;
+        }
+      
+        div.content {
+            margin-left: 0;
+        }
+      }
+      
+      @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+      }
     </style>
-    </head>
-    <body>
-    
-        <div class="sidebar">
-            <a class="active href="index.html" style="color: greenyellow;">Főoldal</a>
-            <a href="keplink.html" style="color: greenyellow;">1. feladat</a>
-            <a href="listak.html" style="color: greenyellow;">2. feladat</a>
-            <a href="orarend.html" style="color: greenyellow;">3. feladat </a>
-          </div>
-    
-    <div class="content">
- 
-<h1 style="color: blue;">Varga Benedek</h1>
+  </head>
+  <body>
   
 
-  <a href"https://vbenedek2006.github.io/kollazs01/keplink.html" target="blank">KEPLINK</a>
-  <p> Ez itt a kollázsom</p>
-<img src="https://raw.githubusercontent.com/VBenedek2006/kollazs01/main/collage.jpg" alt="" width=700>
+    <div class="sidebar">
+        <a class="active" href="https://vbenedek2006.github.io/kollazs01/">MAGAMRÓL</a>
+        <a href="https://vbenedek2006.github.io/kollazs01/keplink.html">KÉPLINK</a>
+        <a href="https://vbenedek2006.github.io/kollazs01/listak.html">LISTÁK</a>
+        <a href="https://vbenedek2006.github.io/kollazs01/orarend.html">ÓRAREND</a>
+    </div>
+
+    <div class="content">
+
+        <h1 style="color: olive;">Varga Benedek</h1>
+        <h2 style="color: lime;">Varga Benedek</h2>
+        <h3 style="color:mediumorchid">Varga Benedek</h3>
+        <h4 style="color: mediumslateblue;">Varga Benedek</h4>
+        <h5 style="color: mediumturquoise;">Varga Benedek</h5>
+        <h6 style="color: mediumvioletred;">Varga Benedek</h6>
+
+        <img src="https://raw.githubusercontent.com/VBenedek2006/kollazs01/main/collage.jpg" alt="kollázsom" title="kollázsom"
+            width="80%">
+
+
+    </div>
 
 </body>
+
 </html>
