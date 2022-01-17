@@ -1,105 +1,91 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="hu">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Képlink</title>
+        </head>
+  <style> 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,800&display=swap'); 
+</style>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>KÉPLINK</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="veiwepont" content="width-device-width initial-scale=1.0">
+<title>KépLink</title>
 </head>
-<style>
-        <sytle class="css">
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
-   body{
-        margin: 0;
-        font-family: "Lato", sans-serif;
-      }
-      button{
-          border-radius: 25px;
-          background-color: rgb(8, 241, 241);
-      }
-      a{
-        color: aqua;
-        text-decoration: none;
-      }
+<body style="font-family: 'Alegreya Sans', sans-serif">
+    <style>
+       body {
+      margin: 0;
+      font-family: "Lato", sans-serif;
+    }
+    
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #3b05ffbc;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+    
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+     
+    .sidebar a.active {
+      background-color: #fc010e;
+      color: rgb(129, 126, 126);
+    }
+    
+    .sidebar a:hover:not(.active) {
+      background-color: rgb(248, 4, 4);
+      color: rgba(41, 40, 40, 0.801);
+    }
+    
+    div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+    
+    @media screen and (max-width: 700px) {
       .sidebar {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        background-color: #f1f1f1;
-        position: fixed;
-        height: 100%;
-        overflow: auto;
+        width: 100%;
+        height: auto;
+        position: relative;
       }
-      
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;}
+    }
+    
+    @media screen and (max-width: 400px) {
       .sidebar a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
+        text-align: center;
+        float: none;
       }
-      
-      .sidebar a.active {
-        background-color: #f80909;
-        color: white;
-      }
-      
-      .sidebar a:hover:not(.active) {
-        background-color: #555;
-        color: white;
-      }
-      
-      div.content {
-        margin-left: 200px;
-        padding: 1px 16px;
-        height: 1000px;
-      }
-      
-      @media screen and (max-width: 700px) {
-        .sidebar {
-            width: 100%;
-            height: auto;
-            position: relative;
-        }
-      
-        .sidebar a {
-            float: left;
-        }
-      
-        div.content {
-            margin-left: 0;
-        }
-      }
-      
-      @media screen and (max-width: 400px) {
-        .sidebar a {
-            text-align: center;
-            float: none;
-        }
-      }
-    </style>
-</head>
- <body font-family: 'Neonderthaw', cursive;>
+    }
+        </style>
+        </head>
+        <body>
+        
+        <div class="sidebar">
+            <a href="https://vbenedek2006.github.io/kollazs01/">MAGAMRÓL</a>
+            <a class="https://vbenedek2006.github.io/kollazs01/keplink.html" href="">KÉPLINK</a>
+            <a href="https://vbenedek2006.github.io/kollazs01/listak.html">LISTÁK</a>
+            <a href="https://vbenedek2006.github.io/kollazs01/orarend.html">ÓRAREND</a>
+        </div>
+        
+        <div class="content">
 
-    <div class="sidebar">
-        <a href="https://vbenedek2006.github.io/kollazs01/">MAGAMRÓL</a>
-        <a class="https://vbenedek2006.github.io/kollazs01/keplink.html" href="">KÉPLINK</a>
-        <a href="https://vbenedek2006.github.io/kollazs01/listak.html">LISTÁK</a>
-        <a href="https://vbenedek2006.github.io/kollazs01/orarend.html">ÓRAREND</a>
-    </div>
-
-    <div class="content">
-
-        <h1 style="color:red;">Varga Benedek</h1>
-        <h2 style="color:green;">Kép+Link</h2>
-
-        <a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege" target="blank">
-            <img src="https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg?t=1631119450"
-                alt="R6" title="játékok" width=250>
-        </a>
-
-    </div>
-
+<h1>Varga Benedek</h1>
+<h2>Varga Benedek</h2>
+<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege" target="blank">
+    <img src="https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg?t=1631119450" alt="R6" title="játékok" width=250>
+</a>
 </body>
-
 </html>
