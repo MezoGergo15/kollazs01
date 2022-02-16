@@ -1,54 +1,57 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Űrlap</title>
+    <title>Pizza rendelés</title>
 </head>
-<body style="background-image: url(https://sawepecomcdn.blob.core.windows.net/ph-web-ordering/PH%20HU/Images/PH%20Product%20pictures_comp/2x_pizza_kedvezo_aron.jpg); background-repeat: no-repeat; background-size: cover;">
-    <h1 style="text-align: center;">Pizza Rendelés</h1>
-    <div class="content">
-    <legend style="text-align: center;">Adatok:</legend>
-    <fieldset style="text-align: center;">
-        <p>Név: <input type="text" name="nev">
-                <small>Vezetéknév Keresztnév</small></p>
-        <p>Telefon: <input type="tel" name="telefon" size="10"></p>
-    </fieldset>
-    <legend style="text-align: center;">Válassz a méretek közül:</legend>
-    <fieldset style="text-align: center;">
-    <select>
-        <option>---Válassz!--- </option>
-        <option>Nagy       </option>
-        <option>Kicsi     </option>
-    </select>
-</fieldset>
-<fieldset style="text-align: center;">
-    <legend style="text-align: center;">Feltétek:</legend>
-    <select>
-        <option>---Válassz!--- </option>
-        <option>Sonka        </option>
-        <option>Sajt     </option>
-        <option>Gomba    </option>
-    </select>
-</fieldset>
-<fieldset style="text-align: center;">
-    <legend style="text-align: center;">Egyéb megjegyzés a futárnak:</legend>
-    <textarea cols=40 rows=4></textarea>
-</fieldset>
-<fieldset style="text-align: center;">
-    <p>mennyiség: <input type="number" name="mennyiseg"> db</p>
-    <p>egyéb: <textarea name="egyeb"></textarea></p>
-    <p>Kért szállítási idő: <input type="time" name="kiszallitas"></p>
+<body style="background-image: url(https://pomodoropizza.co.za/wp-content/uploads/pizza-background.jpg); background-repeat: no-repeat; background-size: cover;">
+    <div class="aut">
+        <h1 style="color: red;">Rendelés!</h1>
+    <p style="color: red;">Neve:</p>
+    <input type='text'>
     <br>
-    <input type="reset" name="visszaallitas">
-    <input type="submit" name="kuldes">
-</fieldset>
+    <p style="color: red;">E-mail:</p>
+    <input type='email'>
+    <br>
+    <p style="color: red;">Méret:</p>
+    <select>
+        <option>---Válassz!--- </option>
+        <option>Nagy(32cm)     </option>
+        <option>Kicsi(23cm)      </option>
+    </select>
+    <br>
+    <p style="color: red;">Feltét:</p>
+    <select>
+        <option>---Válassz!--- </option>
+        <option>Sonka       </option>
+        <option>Sajt        </option>
+        <option>Gomba       </option>
+    </select>
+    <br>
+    <p style="color: red;">Telefonszám:</p>
+    <input type='text'>
+    <br>
+    <p style="color: red;">Irányítószám:</p>
+    <input type='text'>
+    <br>
+    <p style="color: red;">Város:</p>
+    <input type='text'>
+    <br>
+    <select>
+        <option>---Válassz!--- </option>
+        <option>út</option>
+        <option>utca</option>
+    </select>
+<br>
+<p style="color: red;">Házszám:</p>
+<input type='text'>
+<p style="color: red;">Egyéb megjegyzés a futárnak:</p>
+<textarea cols=30 rows=4></textarea>
+<br>
+<input type='submit' value="küldés">
+<br>
 </div>
-<footer style="text-align: center;">
-    <p style="color: rgb(0, 119, 255);">Elérhetőség<br>
-      <a href="mailto:pizza@gmail.com">pizza@gmail.com</a></p>
-  </footer>
-
 </body>
 </html>
