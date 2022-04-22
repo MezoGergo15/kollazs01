@@ -1,0 +1,10 @@
+.but {
+    width: 77px;
+    background-color: red;
+}
+.inp {
+    width: 220px;
+}
+fieldset{
+    width: fit-content;
+}
