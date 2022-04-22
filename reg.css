@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://www.mikrosat.hu/img/15357/catpic_696501/335x335,r/696501.jpg?time=1607531266); 
+    background-size: cover;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+}
+.mezo{
+    border: 2px solid rgb(90, 10, 39);
+    width: 400px;
+    height: 40px;
+   
+   
+    border-radius: 8px;
+    margin: 5px;
+    
+    
+}
