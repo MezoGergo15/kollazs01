@@ -8,3 +8,7 @@
 fieldset{
     width: fit-content;
 }
+
+.vmi{
+    float: right;
+}
