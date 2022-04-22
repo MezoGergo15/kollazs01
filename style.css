@@ -1,6 +1,7 @@
 
  body {
   background-image: url(https://cdn.pixabay.com/photo/2022/04/03/22/05/buildings-7109918_960_720.jpg);
+  background-size: cover;
    margin: 0;
    font-family: "Lato", sans-serif;
    font-family: "Lato", sans-serif;
